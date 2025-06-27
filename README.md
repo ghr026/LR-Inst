@@ -30,8 +30,9 @@ dataset/
 
 
 # Training
-‘python tools/train.py configs/my_model/LR-Inst.py’
+
+`python tools/train.py configs/my_model/LR-Inst.py`
 
 # Testing
-'python tools/test.py configs/my_model/LR-Inst.py /path/to/checkpoint file'
+`python tools/test.py configs/my_model/LR-Inst.py /path/to/checkpoint file`
 
