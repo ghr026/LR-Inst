@@ -13,6 +13,7 @@ MMDetection >= 3.0.0
 
 # Datasets
 The dataset is organized in COCO format.
+'''
 dataset/
 ├── images/                  
 │   ├── train/
@@ -24,6 +25,7 @@ dataset/
 ├── annotations/            
 │   ├── instances_train.json
 │   └── instances_val.json
+'''
 
 # Training
 ‘python tools/train.py configs/my_model/LR-Inst.py’
